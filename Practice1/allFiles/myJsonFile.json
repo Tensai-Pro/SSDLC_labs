@@ -1,0 +1,32 @@
+[
+    {
+        "__product__": true,
+        "Name": "Milk",
+        "Amount": 100,
+        "Price": 58
+    },
+    {
+        "__product__": true,
+        "Name": "Juice",
+        "Amount": 77,
+        "Price": 82
+    },
+    {
+        "__product__": true,
+        "Name": "Eggs",
+        "Amount": 261,
+        "Price": 110
+    },
+    {
+        "__product__": true,
+        "Name": "Fish",
+        "Amount": 73,
+        "Price": 118
+    },
+    {
+        "__product__": true,
+        "Name": "Bread",
+        "Amount": 112,
+        "Price": 25
+    }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<stock>
+   <product>
+      <name>Milk</name>
+      <price>58</price>
+      <amount>100</amount>
+   </product>
+   <product>
+      <name>Juice</name>
+      <price>82</price>
+      <amount>77</amount>
+   </product>
+   <product>
+      <name>Eggs</name>
+      <price>110</price>
+      <amount>261</amount>
+   </product>
+   <product>
+      <name>Fish</name>
+      <price>118</price>
+      <amount>73</amount>
+   </product>
+   <product>
+      <name>Bread</name>
+      <price>25</price>
+      <amount>112</amount>
+   </product>
+</stock>
