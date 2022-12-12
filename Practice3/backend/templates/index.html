@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVWA Login</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="login-area">
+            <h2>Login</h2>
+            <form action="" method="POST" class="form-login">
+                <label for="username">Username</label>
+                <input type="text" name="username">
+                <br>
+    
+                <label for="password">Password</label>
+                <input type="password" name="password" autocomplete="off">
+                <br>
+    
+                <input type="submit" value="Login" name="Login">
+            </form>
+            {% for cat, msg in get_flashed_messages(True) %}
+            <div class="flash {{cat}}">{{msg}}</div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
